@@ -1,0 +1,20 @@
+{
+  "name": "property-asset-upload-handoff",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/property_asset_service.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/upload_policy.test.ts",
+    "demo": "tsx scripts/upload_maintenance_photo.ts"
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
